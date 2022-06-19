@@ -1,0 +1,21 @@
+{
+    "name": "vs-theme",
+    "displayName": "VS Theme",
+    "description": "Visual Studio liked theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VS Theme",
+                "uiTheme": "vs",
+                "path": "./themes/VS Theme-color-theme.json"
+            }
+        ]
+    }
+}
