@@ -1,5 +1,19 @@
 # vs-theme
 
+### vscode setting.json:
+```
+{
+    "workbench.startupEditor": "none",
+    "php.validate.executablePath": "D:/xampp/php/php.exe",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "VS Theme",
+    "workbench.sideBar.location": "right",
+    "git.ignoreMissingGitWarning": true,
+    "explorer.autoReveal": false
+}
+```
+
 # Emoji
 Inspired by [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji)
 
