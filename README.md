@@ -14,6 +14,54 @@
 }
 ```
 
+### vscode php snippets:
+```
+{
+	"PHP tags": {
+        "prefix": "php",
+        "body": [
+            "<?php $0?>"
+        ],
+        "description": "PHP open tag"
+    },
+    "PHP open tag": {
+        "prefix": "po",
+        "body": [
+            "<?php"
+        ],
+        "description": "PHP open tag"
+    },
+    "PHP close tag": {
+        "prefix": "pc",
+        "body": [
+            "?>"
+        ],
+        "description": "PHP close tag"
+    },
+    "PHP echo short tag": {
+        "prefix": "peco",
+        "body": [
+            "<?= \\$${1:variable} ?>"
+        ],
+        "description": "PHP echo short tag"
+    },
+	"PHP reverse tag": {
+        "prefix": "prve",
+        "body": [
+            "?> $0 <?php"
+        ],
+        "description": "PHP echo short tag"
+    },    
+	"PHP array print":{
+		"prefix": "prna",
+		"body": [
+			"echo '<pre>' , print_r($array, true) , '</pre>'"
+		],
+		"description": "PHP print array"
+	}
+}
+```
+
 # Emoji
 Inspired by [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji)
 
