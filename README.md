@@ -61,6 +61,22 @@
 	}
 }
 ```
+### vscode keybindding.json
+```
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    }
+]
+```
 
 # Emoji
 Inspired by [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji)
