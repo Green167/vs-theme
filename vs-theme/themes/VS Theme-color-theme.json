@@ -384,7 +384,8 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#CA1243"
+                "foreground": "#D05416",
+                "fontStyle": "bold"
             }
         },
         {
