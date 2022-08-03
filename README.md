@@ -74,6 +74,11 @@
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder",
         "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "deleteAllRight",
+        "when": "editorTextFocus"
     }
 ]
 ```
