@@ -58,6 +58,13 @@
 			"echo '<pre>' , print_r($array, true) , '</pre>'"
 		],
 		"description": "PHP print array"
+	},
+	"Exit ABSPATH":{
+		"prefix": "exap",
+		"body": [
+			"if ( !defined('ABSPATH') ) { \n\texit; // Exit if accessed directly \n}"
+		],
+		"description": "Exit if abspath undefined"
 	}
 }
 ```
