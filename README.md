@@ -65,7 +65,48 @@
 			"if ( !defined('ABSPATH') ) { \n\texit; // Exit if accessed directly \n}"
 		],
 		"description": "Exit if abspath undefined"
-	}
+	},
+	
+	"<?php If ... endif": {
+        "prefix": "pifen",
+        "body": [
+            "<?php if (${1:condition}): ?>",
+            "\t${0:<!-- coding here -->}",
+            "<?php endif; ?>"
+        ],
+        "description": "If endif block inside HTML"
+    },
+    "<?php If ... else ... endif": {
+        "prefix": "pifelen",
+        "body": [
+            "<?php if (${1:condition}): ?>",
+            "\t${2:<!-- coding here -->}",
+            "<?php else: ?>",
+            "\t${0:<!-- coding here -->}",
+            "<?php endif ?>;"
+        ],
+        "description": "If else endif block"
+    },
+    "<?php If ... elseif ... else ... endif": {
+        "prefix": "pifelifen",
+        "body": [
+            "<?php if (${1:condition}): ?>",
+            "\t${2:<!-- coding here -->}",
+            "<?php elseif (${3:condition}): ?>",
+            "\t${4:<!-- coding here -->}",
+            "<?php else: ?>",
+            "\t${0:<!-- coding here -->}",
+            "<?php endif; ?>"
+        ],
+        "description": "If elseif else endif block"
+    },
+    "<?php Ternary operator": {
+        "prefix": "ptern",
+        "body": [
+            "<?php ${1:condition} ? ${2:if_true} : ${3:if_false}; ?>"
+        ],
+        "description": "Ternary statement"
+    }
 }
 ```
 ### vscode keybindding.json
