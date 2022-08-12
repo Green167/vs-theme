@@ -10,7 +10,12 @@
     "workbench.colorTheme": "VS Theme",
     "workbench.sideBar.location": "right",
     "git.ignoreMissingGitWarning": true,
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.4,
+    "editor.letterSpacing": 0.3,
 }
 ```
 
