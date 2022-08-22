@@ -15,7 +15,8 @@
     "editor.fontWeight": "400",
     "editor.fontLigatures": true,
     "editor.lineHeight": 1.4,
-    "editor.letterSpacing": 0.3,
+    "editor.letterSpacing": 0.3,    
+    "php.suggest.basic": false,
 }
 ```
 
