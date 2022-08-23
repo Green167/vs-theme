@@ -112,6 +112,13 @@
             "<?php ${1:condition} ? ${2:if_true} : ${3:if_false}; ?>"
         ],
         "description": "Ternary statement"
+    },
+    "var_dump(timing...)":{
+        "prefix": "ptime",
+        "body": [
+            "var_dump(date('Y-m-d H:i:s.').gettimeofday()['usec']);"
+        ],
+        "description": "Print current time"
     }
 }
 ```
