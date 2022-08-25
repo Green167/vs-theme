@@ -114,7 +114,7 @@
         "description": "Ternary statement"
     },
     "var_dump(timing...)":{
-        "prefix": "ptime",
+        "prefix": "ptimer",
         "body": [
             "var_dump(date('Y-m-d H:i:s.').gettimeofday()['usec']);"
         ],
