@@ -17,6 +17,16 @@
     "editor.lineHeight": 1.4,
     "editor.letterSpacing": 0.3,    
     "php.suggest.basic": false,
+    
+    // For gulp command
+    "terminal.integrated.profiles.windows": {
+	"PowerShell": {
+	  "source": "PowerShell",
+	  "icon": "terminal-powershell",
+	  "args": ["-ExecutionPolicy", "Bypass"]
+	}
+      },
+      "terminal.integrated.defaultProfile.windows": "PowerShell",
 }
 ```
 
