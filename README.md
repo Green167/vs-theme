@@ -126,8 +126,8 @@
     "foreach(...)":{
         "prefix": "pfoe",
         "body": [
-            "foreach($array as $element):",
-            "\t${2:<!-- coding here -->}",
+            "foreach($${1:array} as $${2:key} => $${3:value}):",
+            "\t${4:<!-- code here -->}",
             "endforeach;"
         ],
         "description": "Foreach no branket"
