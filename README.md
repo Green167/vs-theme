@@ -76,7 +76,7 @@
 		"description": "PHP print array"
 	},
 	"Exit ABSPATH":{
-		"prefix": "exap",
+		"prefix": "pexit",
 		"body": [
 			"if ( !defined('ABSPATH') ) { \n\texit; // Exit if accessed directly \n}"
 		],
