@@ -123,6 +123,15 @@
         ],
         "description": "Ternary statement"
     },
+    "foreach(...)":{
+        "prefix": "pfoe",
+        "body": [
+            "foreach($array as $element):",
+            "\t${2:<!-- coding here -->}",
+            "endforeach;"
+        ],
+        "description": "Foreach no branket"
+    },
     "var_dump(timing...)":{
         "prefix": "ptimer",
         "body": [
