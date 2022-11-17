@@ -163,6 +163,19 @@
 ]
 ```
 
+### vscode js snippets:
+```
+{
+    "Js timer with milisec": {
+	"prefix": "jstimer",
+	"body": [
+		"console.log((new Date()).toISOString());",
+	],
+	"description": "Log JS timer with Milisec"
+    }
+}
+```
+
 # Emoji
 Inspired by [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji)
 
