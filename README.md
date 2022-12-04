@@ -159,6 +159,20 @@
         "key": "ctrl+shift+delete",
         "command": "deleteAllRight",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "vendor/bin/phpunit\u000D"
+        }
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "vendor/bin/phpunit "
+        }
     }
 ]
 ```
